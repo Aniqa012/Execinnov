@@ -1,0 +1,53 @@
+---
+alwaysApply: true
+---
+Perform this task:
+We need to add a Notifications system to alert users about important events in the application. This will improve user engagement and keep them informed about key updates.
+
+Requirements:
+
+**1. Notification when AI LLM Finishes & Gives Results:**
+
+Trigger an in-app notification when the AI completes processing and results are ready.
+
+Notification should contain:
+
+Title (e.g., “Your AI results are ready”)
+
+Short description of what was processed.
+
+Clickable link/button to view results.
+
+**2.Push Notification about Pro Plan:**
+
+Send a push/in-app notification to inform users about the Pro Plan.
+
+Include:
+
+Title (e.g., “Upgrade to Pro for More Features”)
+
+Description of benefits.
+
+Call-to-action button (e.g., “Upgrade Now”).
+
+**3.General Requirements:**
+
+Notifications should appear in real-time without requiring a page refresh.
+
+Store notifications in a notifications center so users can view past alerts.
+
+Mark notifications as read when opened.
+
+Style according to UI/UX design.
+
+**Acceptance Criteria:**
+
+AI completion triggers notification instantly when results are ready.
+
+Pro Plan push notification is displayed to target users.
+
+Notifications are stored and retrievable from the notification center.
+
+Works on desktop and mobile.
+
+The notification button and notification-center page is already created. you have to generate notifications for these purposes.
